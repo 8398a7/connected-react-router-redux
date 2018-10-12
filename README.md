@@ -1,6 +1,6 @@
 # Connected React Router Redux
 
-It's a HoC that updates the reducer when using connected-react-router.<br />
+It's a HoC that updates the reducer when using [connected-react-router](https://github.com/supasate/connected-react-router).<br />
 HoC implementation using [How to navigate with Redux action](https://github.com/supasate/connected-react-router/blob/master/FAQ.md#how-to-navigate-with-redux-action) with store.dispatch.
 
 
