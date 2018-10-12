@@ -1,0 +1,36 @@
+{
+  "name": "connected-react-router-redux",
+  "version": "1.0.0",
+  "description": "It's a HoC that updates the reducer when using connected-react-router",
+  "main": "index.js",
+  "author": "8398a7",
+  "scripts": {
+    "build": "tsc --jsx react ./index.tsx"
+  },
+  "keywords": [
+    "connected-react-router",
+    "react-router-dom",
+    "react-ga"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "connected-react-router": "^4.5.0",
+    "history": "^4.7.2",
+    "react": "^16.5.2",
+    "react-redux": "^5.0.7",
+    "redux": "^4.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^16.4.16",
+    "@types/react-redux": "^6.0.9",
+    "@types/redux": "^3.6.0",
+    "typescript": "^3.1.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/8398a7/connected-react-router-reducer"
+  },
+  "bugs": {
+    "url": "https://github.com/8398a7/connected-react-router-reducer/issues"
+  }
+}
