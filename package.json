@@ -1,6 +1,6 @@
 {
   "name": "connected-react-router-redux",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "It's a HoC that updates the reducer when using connected-react-router",
   "main": "index.js",
   "author": "8398a7",
