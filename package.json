@@ -5,7 +5,8 @@
   "main": "index.js",
   "author": "8398a7",
   "scripts": {
-    "build": "tsc --jsx react ./index.tsx"
+    "build": "tsc --jsx react ./index.tsx",
+    "lint": "tslint -c ./tslint.json --exclude ./node_modules --project ."
   },
   "keywords": [
     "connected-react-router",
@@ -24,6 +25,9 @@
     "@types/react": "^16.4.16",
     "@types/react-redux": "^6.0.9",
     "@types/redux": "^3.6.0",
+    "tslint": "^5.11.0",
+    "tslint-config-prettier": "^1.15.0",
+    "tslint-react": "^3.6.0",
     "typescript": "^3.1.2"
   },
   "repository": {

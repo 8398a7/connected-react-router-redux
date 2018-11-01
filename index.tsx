@@ -4,7 +4,7 @@ import { connect } from 'react-redux';
 import { compose, Dispatch } from 'redux';
 
 interface InterfaceWithRouterReducer {
-  dispatch: Dispatch,
+  dispatch: Dispatch;
 }
 
 export const withRouterReducer = compose(
